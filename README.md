@@ -4,6 +4,7 @@ STARVar:Symptom based Tool for Automatic Ranking of Variants using evidence from
 
 How to use STARVar?
 To run STARVar, please follow the steps below:
+
 0. Download the required input files from ....
 
 1. An input VCF file first should be filtered for the candiate variants based on Allele Frequency and/or mode of inheritance.
