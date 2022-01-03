@@ -281,7 +281,7 @@ def calc_jaccard_rs (cnt, hpo_list):
 
 ##-------------------------------------------------------------------------------
 print ("vcf file="+sys.argv[1])
-print ("preferred genomic evidence based model (SIFT/PloyPhen-2)="+sys.argv[2])
+print ("preferred genomic evidence based (SIFT/PloyPhen-2)="+sys.argv[2])
 print ("user provided symptoms:"+sys.argv[3])
 if sys.argv[1] =="":
    print ("provide an input file annotated by VEP in VCF format. USAGE: python STARVar.py inputfile option symptoms")
@@ -380,7 +380,7 @@ current_time = now.strftime("%H:%M:%S")
 print("Literature evidence extraction is completed: Current Time =", current_time)
 print("Prediction is started: Current Time =", current_time)
  
-loaded_model = joblib.load('/ibex/scratch/kafkass/ExpVar/model/model.90K.LitOnly.sav')
+loaded_model = joblib.load('model.90K.LitOnly.sav')
 ynew = loaded_model.predict_proba(testdata)
 
 now = datetime.now()
