@@ -8,7 +8,7 @@ To use STARVar, follow the following steps:
 1. An input VCF file first should be filtered for the candiate variants based on Allele Frequency and/or mode of inheritance.
 We suggest users to use one of the efficient filtering tools slivar for the filtering step. Slivar is avaiulable from https://github.com/brentp/slivar
 
-2. The filtered VCF file must be annotated by using the Variant Effect Predictor (VEP) tool with the required information for analyzing data efficiently. Follow the steps described https://github.com/bio-ontology-research-group/pavs_annotation for run the VEP as CWL.
+2. The filtered VCF file must be annotated by using the Variant Effect Predictor (VEP) tool with the required information for analyzing data efficiently. Follow the steps described https://github.com/bio-ontology-research-group/pavs_annotation to run the VEP as CWL.
 
 3. run STARVar as follows:
 format: python STARVar.py input.vcf option symptoms
