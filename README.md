@@ -3,6 +3,7 @@
 STARVar:Symptom based Tool for Automatic Ranking of Variants using evidence from literature and genomes
 
 How to use STARVar?
+
 To run STARVar, please follow the steps below:
 
 0. Download the required input files from https://exrcsdrive.kaust.edu.sa/exrcsdrive/index.php/s/CobjdzXWoWmJbYs . The password for accessing the data is : 12345
