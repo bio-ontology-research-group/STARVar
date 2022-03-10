@@ -90,6 +90,8 @@ def load_genes():
 
 def search(index,qry):
    r=[]
+   qry=qry.strip()
+   qry='"'+qry+'"'
    res = es.search(index=index,
                    track_total_hits= True,
                    _source=["_id"],
@@ -102,6 +104,7 @@ def search(index,qry):
    for hit in res['hits']['hits']:
       pid = hit['_id']
       r.append(pid)
+   qry=qry.replace('"','')
    hpo2pmid[qry]=set(r)
 
 
