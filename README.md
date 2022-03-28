@@ -20,4 +20,4 @@ option: STARVar combines scores from the literature based model and genomics evi
 
 symptoms: should be provided as a semi-colon separated single list of symptoms either in free text format or as HPO IDs. For example, "HP:XXXXXX;brain atrophy". Please dont forget to use quotation (") for symptoms. 
 
-Example: python STARVar.py gpcards_ALDOB.vep.vcf -v "Hepatomegaly;Liver dysfunction;Developmental delay;abnormal transferrin"
+Example: python STARVar.py gpcards_ALDOB.vep.vcf v "Hepatomegaly;Liver dysfunction;Developmental delay;abnormal transferrin"
