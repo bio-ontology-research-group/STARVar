@@ -1,0 +1,48 @@
+## Uploaded_variation : Identifier of uploaded variant
+## Location : Location of variant in standard coordinate format (chr:start or chr:start-end)
+## Allele : The variant allele used to calculate the consequence
+## Gene : Stable ID of affected gene
+## Feature : Stable ID of feature
+## Feature_type : Type of feature - Transcript, RegulatoryFeature or MotifFeature
+## Consequence : Consequence type
+## cDNA_position : Relative position of base pair in cDNA sequence
+## CDS_position : Relative position of base pair in coding sequence
+## Protein_position : Relative position of amino acid in protein
+## Amino_acids : Reference and variant amino acids
+## Codons : Reference and variant codon sequence
+## Existing_variation : Identifier(s) of co-located known variants
+## IMPACT : Subjective impact classification of consequence type
+## DISTANCE : Shortest distance from variant to transcript
+## STRAND : Strand of the feature (1/-1)
+## FLAGS : Transcript quality flags
+## SYMBOL : Gene symbol (e.g. HGNC)
+## SYMBOL_SOURCE : Source of gene symbol
+## HGNC_ID : Stable identifer of HGNC gene symbol
+## BIOTYPE : Biotype of transcript or regulatory feature
+## CANONICAL : Indicates if transcript is canonical for this gene
+## TSL : Transcript support level
+## SOURCE : Source of transcript
+## SIFT : SIFT prediction and/or score
+## PolyPhen : PolyPhen prediction and/or score
+## EXON : Exon number(s) / total
+## INTRON : Intron number(s) / total
+## HGVSc : HGVS coding sequence name
+## HGVSp : HGVS protein sequence name
+## HGVS_OFFSET : Indicates by how many bases the HGVS notations for this variant have been shifted
+## AF : Frequency of existing variant in 1000 Genomes combined population
+## gnomAD_AF : Frequency of existing variant in gnomAD exomes combined population
+## gnomAD_AFR_AF : Frequency of existing variant in gnomAD exomes African/American population
+## gnomAD_AMR_AF : Frequency of existing variant in gnomAD exomes American population
+## gnomAD_ASJ_AF : Frequency of existing variant in gnomAD exomes Ashkenazi Jewish population
+## gnomAD_EAS_AF : Frequency of existing variant in gnomAD exomes East Asian population
+## gnomAD_FIN_AF : Frequency of existing variant in gnomAD exomes Finnish population
+## gnomAD_NFE_AF : Frequency of existing variant in gnomAD exomes Non-Finnish European population
+## gnomAD_OTH_AF : Frequency of existing variant in gnomAD exomes other combined populations
+## gnomAD_SAS_AF : Frequency of existing variant in gnomAD exomes South Asian population
+## CLIN_SIG : ClinVar clinical significance of the dbSNP variant
+## SOMATIC : Somatic status of existing variant
+## PHENO : Indicates if existing variant(s) is associated with a phenotype, disease or trait; multiple values correspond to multiple variants
+## PAVS : custom genotype-phenotype associations from PAVS
+## GO_CLASSES : custom GO data
+## PHENOTYPE : custom phenotypes data from the HPO database
+## PPI : custom PPI data from STRING
