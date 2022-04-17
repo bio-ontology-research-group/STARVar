@@ -9,7 +9,7 @@ To run STARVar, please follow the steps below:
 0. Download the required input files from https://exrcsdrive.kaust.edu.sa/exrcsdrive/index.php/s/CobjdzXWoWmJbYs . The password for accessing the data is : 12345
 
 1. An input VCF file containing variants first should be filtered for the candiate variants based on Allele Frequency and/or mode of inheritance. (e.g. synthetic_ALDOB.maf001.AR.vcf)
-We suggest users to use one of the efficient filtering tools slivar for the filtering step. Slivar is avaiulable from https://github.com/brentp/slivar
+We suggest users to use one of the efficient filtering tools, e.g. slivar for the filtering step. Slivar is available from https://github.com/brentp/slivar
 
 2. The filtered VCF file must be annotated by using the Variant Effect Predictor (VEP) tool with the required information (see the VEP_AnnotFields file for the full set of annotation fields by VEP) for analyzing data efficiently. Follow the steps described at https://github.com/bio-ontology-research-group/pavs_annotation to install and run the VEP as CWL locally.
 
