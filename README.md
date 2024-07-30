@@ -6,7 +6,7 @@ How to use STARVar?
 
 To run STARVar, please follow the steps below:
 
-0. Download the required input files from https://exrcsdrive.kaust.edu.sa/exrcsdrive/index.php/s/CobjdzXWoWmJbYs . The password for accessing the data is : 12345
+0. Download the required input files from [https://exrcsdrive.kaust.edu.sa/exrcsdrive/index.php/s/CobjdzXWoWmJbYs](https://exrcsdrive.kaust.edu.sa/index.php/s/CobjdzXWoWmJbYs) . The password for accessing the data is : 12345
 
 1. An input VCF file containing variants first should be filtered for the candiate variants based on Allele Frequency and/or mode of inheritance. (e.g. synthetic_ALDOB.maf001.AR.vcf)
 We suggest users to use one of the efficient filtering tools, e.g. slivar for the filtering step. Slivar is available from https://github.com/brentp/slivar
